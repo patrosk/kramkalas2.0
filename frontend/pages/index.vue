@@ -1,5 +1,9 @@
 <template>
-  <People />
+  <div class="main">
+    <NuxtLink to="About">Om oss</NuxtLink>
+    <NuxtLink to="Contact">Kontakta oss</NuxtLink>
+    <People />
+  </div>
 </template>
 
 <script>

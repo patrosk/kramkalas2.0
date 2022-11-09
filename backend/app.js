@@ -31,7 +31,12 @@ require('apostrophe')({
     // The project's first custom page type.
     'default-page': {},
 
-    'about-page': {},
+    'about-page': {
+      options: {
+        restApi: true,
+        apiTemplates: [ 'about-page' ]
+      }
+    },
     'contact-page': {},
     'apostrophe-pieces-export': {},
     // 'apostrophe-headless': {},
@@ -39,6 +44,7 @@ require('apostrophe')({
     people: {
       extend: '@apostrophecms/piece-type',
       options: {
+        alias: 'people',
         restApi: true,
         export: true,
         label: 'Person',

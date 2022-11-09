@@ -20,14 +20,15 @@ module.exports = {
       },
       image: {
         label: 'Photo',
-        type: 'area',
-        required: true,
-        options: {
-          max: 1,
-          widgets: {
-            '@apostrophecms/image': {}
-          }
-        }
+        type: 'attachment'
+        // type: 'area',
+        // required: true,
+        // options: {
+        //   max: 1,
+        //   widgets: {
+        //     '@apostrophecms/image': {}
+        //   }
+        // }
       },
       email: {
         type: 'string',
