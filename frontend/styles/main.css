@@ -1,4 +1,7 @@
 @import "./variables.css";
+@import "./header.css";
+@import "./footer.css";
+
 * {
   box-sizing: border-box;
 }
@@ -6,6 +9,8 @@
 body {
   margin: 0;
   background-color: var(--white);
+  font-family: Playfair Display;
+  color: var(--dark-grey);
 }
 
 .main {
@@ -14,4 +19,11 @@ body {
 
 h1 {
   font-family: Comfortaa;
+  color: var(--light-grey);
+}
+
+h3,
+h4,
+h5 {
+  font-family: Convergence;
 }

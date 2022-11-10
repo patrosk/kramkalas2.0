@@ -1,0 +1,18 @@
+@import "./variables.css";
+/* is main necessary to include? */
+@import "./main.css";
+
+header {
+  background-color: var(--off-white);
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  border-bottom: 4px solid var(--light-orange);
+}
+.hamburger-menu div {
+  width: 33px;
+  height: 3px;
+  border-radius: 6px;
+  background-color: var(--dark-orange);
+  margin: 3px 0;
+}

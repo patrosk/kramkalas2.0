@@ -1,0 +1,13 @@
+@import "./variables.css";
+/* is main necessary to include? */
+@import "./main.css";
+
+footer {
+  background-color: var(--off-white);
+  padding: 6px;
+  border-top: 4px solid var(--light-orange);
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
