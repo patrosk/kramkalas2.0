@@ -1,3 +1,5 @@
 # KRAMKALAS
 
-hello
+Examensarbete WU21
+
+Hemsida till bolaget Kramkalas 🥳
