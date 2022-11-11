@@ -1,6 +1,5 @@
 @import "./variables.css";
 /* is main necessary to include? */
-@import "./main.css";
 
 header {
   background-color: var(--off-white);

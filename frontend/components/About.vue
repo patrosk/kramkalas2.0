@@ -11,7 +11,9 @@
       <h2>Vårt team</h2>
       <div class="team-container">
         <div class="team-card">
-          <img src="../images/javacutie.jpg" alt="" />
+          <div class="img-container">
+            <img src="../images/javacutie.jpg" alt="" />
+          </div>
           <h4>Oskar Fritz</h4>
           <p class="bio">Bio</p>
           <p class="email"><a href="#">skicka ett mejl till Oskar</a></p>
@@ -22,7 +24,9 @@
       <h2>Våra partners</h2>
       <div class="partners-container">
         <div class="partner-card">
-          <img src="../images/javacutie.jpg" alt="" />
+          <div class="img-container">
+            <img src="../images/javacutie.jpg" alt="" />
+          </div>
           <h4>BRIS</h4>
           <p class="description">Description</p>
           <p class="link"><a href="#">länk till deras hemsida</a></p>

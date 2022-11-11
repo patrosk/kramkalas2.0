@@ -1,0 +1,21 @@
+@import "./variables.css";
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team .img-container,
+.partners .img-container {
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+}
+
+.team img,
+.partners img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
