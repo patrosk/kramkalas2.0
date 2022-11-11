@@ -1,8 +1,8 @@
 <template>
   <div class="main">
-    <NuxtLink to="About">Om oss</NuxtLink>
-    <NuxtLink to="Contact">Kontakta oss</NuxtLink>
-    <People />
+    <!-- <NuxtLink to="About">Om oss</NuxtLink>
+    <NuxtLink to="Contact">Kontakta oss</NuxtLink> -->
+    <Home />
   </div>
 </template>
 

@@ -1,6 +1,7 @@
 @import "./variables.css";
 @import "./header.css";
 @import "./footer.css";
+@import "./home.css";
 
 * {
   box-sizing: border-box;
@@ -17,14 +18,21 @@ body {
   padding: 40px;
 }
 
+.main a {
+  font-family: Convergence;
+  color: var(--dark-orange);
+}
+
 h1 {
   font-size: var(--large);
   font-family: Comfortaa;
-  color: var(--light-grey);
+  color: var(--dark-orange);
 }
+h2,
 h3 {
   font-size: var(--medium);
   font-family: Convergence;
+  color: var(--dark-orange);
 }
 h4,
 h5 {
