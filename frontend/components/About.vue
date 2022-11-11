@@ -14,8 +14,11 @@
           <div class="img-container">
             <img src="../images/javacutie.jpg" alt="" />
           </div>
-          <h4>Oskar Fritz</h4>
-          <p class="bio">Bio</p>
+          <h3>Oskar Fritz</h3>
+          <p class="bio">
+            Författare av böckerna om Kim och grundare av Kramkalas. Skriver och
+            framför låtarna om Kim tillsammans med Nema.
+          </p>
           <p class="email"><a href="#">skicka ett mejl till Oskar</a></p>
         </div>
       </div>
@@ -27,10 +30,30 @@
           <div class="img-container">
             <img src="../images/javacutie.jpg" alt="" />
           </div>
-          <h4>BRIS</h4>
-          <p class="description">Description</p>
+          <h3>BRIS</h3>
+          <p class="description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
+            architecto iusto ipsum nihil corporis minus pariatur accusamus, at
+            explicabo ducimus rem doloremque nostrum nulla perferendis tenetur?
+            Expedita impedit aliquam quidem?
+          </p>
           <p class="link"><a href="#">länk till deras hemsida</a></p>
         </div>
+      </div>
+    </section>
+    <section class="projects">
+      <h2>Framtida projekt</h2>
+      <div class="projects-container">
+        <p>
+          Vi har många idéer för framtida projekt som främjar rättvisa,
+          jämställdhet och likabehandling.
+        </p>
+        <p>
+          Är ni ett företag eller en organisation som vill samarbeta med oss? Ni
+          kanske har en grym idé till ett projekt som vi kan samarbeta på? Hör
+          av er till oss!
+        </p>
+        <p class="email"><a href="#">mejla oss!</a></p>
       </div>
     </section>
   </section>

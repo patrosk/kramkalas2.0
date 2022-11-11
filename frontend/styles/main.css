@@ -3,6 +3,7 @@
 @import "./footer.css";
 @import "./home.css";
 @import "./about.css";
+@import "./contact.css";
 
 * {
   box-sizing: border-box;
@@ -23,13 +24,21 @@ body {
   font-family: Convergence;
   color: var(--dark-orange);
 }
+.hero {
+  margin-top: 5rem;
+}
 
 h1 {
-  font-size: var(--large);
+  font-size: var(--x-large);
   font-family: Comfortaa;
   color: var(--dark-orange);
 }
-h2,
+h2 {
+  font-size: var(--large);
+  font-family: Convergence;
+  color: var(--dark-orange);
+  font-weight: 300;
+}
 h3 {
   font-size: var(--medium);
   font-family: Convergence;
