@@ -237,9 +237,9 @@
     <section class="about">
       <h2>Hemma hos Kim är alla välkomna</h2>
       <p class="about-description">
-        I böckerna om Kim får vi följa med Nallebjörnen Kim på hens alla
-        äventyr. I XX böcker får vi lära känna Kims vänner och uppleva världen
-        ur en nallebjörns perspektiv. Hos Kim är alla välkomna.
+        I böckerna om Kim får vi följa med Nallebjörnen Kim på hens alla små
+        äventyr i rim. I XX böcker får vi lära känna Kims vänner och uppleva
+        världen ur en nallebjörns perspektiv. Hos Kim är alla välkomna.
       </p>
       <p class="about-link"><a href="/">läs mer om Nallebjörnen Kim här</a></p>
     </section>

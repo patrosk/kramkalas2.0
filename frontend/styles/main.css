@@ -4,6 +4,7 @@
 @import "./home.css";
 @import "./about.css";
 @import "./contact.css";
+@import "./kim.css";
 
 * {
   box-sizing: border-box;
