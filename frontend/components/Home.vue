@@ -217,7 +217,13 @@
           </defs>
         </svg>
       </div>
-      <p class="hero-description">
+      <p class="hero-description-1">
+        Vi är ett litet bolag som, på ett unikt sätt, jobbar för samhällets
+        olika delar. Jämställdhet, jämlikhet och inkludering är våra
+        värderingar. Vi tror på att vi kan använda våra talanger, tillsammans,
+        för att göra skillnad.
+      </p>
+      <p class="hero-description-2">
         Vi driver projekt för barn, ungdomar och vuxna med fokus på kreativitet,
         utveckling, likabehandling och jämställdhet.
       </p>

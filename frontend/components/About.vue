@@ -2,13 +2,28 @@
   <section>
     <h1>Vi är kramkalas</h1>
     <section class="hero">
-      <p class="hero-description">
-        Vi driver projekt för barn, ungdomar och vuxna med fokus på kreativitet,
-        utveckling, likabehandling och jämställdhet.
+      <p class="hero-description-1">
+        Kramkalas är ett litet bolag som, på ett unikt sätt, jobbar för
+        samhällets olika delar. Jämställdhet, jämlikhet och inkludering är våra
+        värderingar. Vi tror på att vi kan använda våra talanger, tillsammans,
+        för att göra skillnad.
+      </p>
+      <p class="hero-description-2">
+        Vårt nuvarande projekt, nallebjörnen Kim, kommer lanseras inom kort. I
+        detta projekt har vi skrivit barnböcker i rim, gjort musik och
+        uppmuntrar barn till att leka med ord. 50% av vinsten på böckerna kommer
+        att gå till olika organisationer som gynnar barn.
+      </p>
+      <p class="hero-description-3">
+        Vi tar gärna emot donationer och sponsorer.
       </p>
     </section>
     <section class="team">
       <h2>Vårt team</h2>
+      <p class="team-description">
+        Vi som är Kramkalas kommer från olika yrkeskategorier såsom
+        betongbranschen, marknadsföring, musikbranschen och webbutveckling.
+      </p>
       <div class="team-container">
         <div class="team-card">
           <div class="img-container">
