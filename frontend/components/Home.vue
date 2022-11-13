@@ -247,7 +247,9 @@
         äventyr i rim. I XX böcker får vi lära känna Kims vänner och uppleva
         världen ur en nallebjörns perspektiv. Hos Kim är alla välkomna.
       </p>
-      <p class="about-link"><a href="/">läs mer om Nallebjörnen Kim här</a></p>
+      <p class="about-link">
+        <NuxtLink to="Kim">läs mer om Nallebjörnen Kim här</NuxtLink>
+      </p>
     </section>
   </section>
 </template>

@@ -30,6 +30,7 @@ require('apostrophe')({
     asset: {},
     // The project's first custom page type.
     'default-page': {},
+    'home-page': {},
 
     'about-page': {
       options: {

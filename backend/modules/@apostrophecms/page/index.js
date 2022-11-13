@@ -10,7 +10,7 @@ module.exports = {
       },
       {
         name: '@apostrophecms/home-page',
-        label: 'Home'
+        label: 'Default Home'
       },
       {
         name: 'about-page',
@@ -19,6 +19,10 @@ module.exports = {
       {
         name: 'contact-page',
         label: 'Contact'
+      },
+      {
+        name: 'home-page',
+        label: 'Home'
       }
     ]
   }
