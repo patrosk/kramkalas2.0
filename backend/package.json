@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "Apostrophe 3 Boilerplate Site",
+  "description": "Kramkalas CMS",
   "main": "app.js",
   "scripts": {
     "start": "node app",

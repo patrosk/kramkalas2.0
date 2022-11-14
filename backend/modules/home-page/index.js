@@ -11,10 +11,10 @@ module.exports = {
         type: 'attachment',
         label: 'Hero image'
       },
-      //   hero_image_alt: {
-      //     type: 'string',
-      //     label: 'Image alt text.'
-      //   },
+      hero_image_alt: {
+        type: 'string',
+        label: 'Image alt text.'
+      },
       hero_description_1: {
         type: 'area',
         label: 'Hero paragraph 1',
@@ -95,6 +95,7 @@ module.exports = {
           'title',
           'h1',
           'hero_image',
+          'hero_image_alt',
           'hero_description_1',
           'hero_description_2',
           'hero_link_text',
@@ -111,6 +112,5 @@ module.exports = {
         ]
       }
     }
-
   }
 };
