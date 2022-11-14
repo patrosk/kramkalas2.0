@@ -4,16 +4,20 @@ module.exports = {
     add: {
       h1: {
         type: 'string',
-        label: 'h1 goes here',
+        label: 'Heading 1 (h1)',
         required: true
       },
       hero_image: {
         type: 'attachment',
-        label: 'image'
+        label: 'Hero image'
       },
+      //   hero_image_alt: {
+      //     type: 'string',
+      //     label: 'Image alt text.'
+      //   },
       hero_description_1: {
         type: 'area',
-        label: 'Hero text',
+        label: 'Hero paragraph 1',
         options: {
           widgets: {
             '@apostrophecms/rich-text': {}
@@ -22,25 +26,24 @@ module.exports = {
       },
       hero_description_2: {
         type: 'area',
-        label: 'Hero text',
+        label: 'Hero paragraph 2',
         options: {
           widgets: {
             '@apostrophecms/rich-text': {}
           }
         }
       },
-      hero_link: {
-        type: 'area',
-        label: 'Hero link: read more',
-        options: {
-          widgets: {
-            '@apostrophecms/rich-text': {}
-          }
-        }
+      hero_link_text: {
+        type: 'string',
+        label: 'Hero link: text'
+      },
+      hero_link_url: {
+        type: 'string',
+        label: 'Hero link: url'
       },
       h2_1: {
         type: 'string',
-        label: 'h2 goes here'
+        label: 'Heading 2 (h2)'
       },
       game_img: {
         label: 'Game image',
@@ -48,43 +51,41 @@ module.exports = {
       },
       game_description: {
         type: 'area',
-        label: 'Hero text',
+        label: 'Game description',
         options: {
           widgets: {
             '@apostrophecms/rich-text': {}
           }
         }
       },
-      game_link: {
-        type: 'area',
-        label: 'Hero link: read more',
-        options: {
-          widgets: {
-            '@apostrophecms/rich-text': {}
-          }
-        }
+      game_link_text: {
+        type: 'string',
+        label: 'Game link text'
+      },
+      game_link_url: {
+        type: 'string',
+        label: 'Game link url'
       },
       h2_2: {
         type: 'string',
-        label: 'h2 goes here'
+        label: 'Heading 3 (h2)'
       },
       about_description: {
         type: 'area',
-        label: 'Hero link: read more',
+        label: 'About description',
         options: {
           widgets: {
             '@apostrophecms/rich-text': {}
           }
         }
       },
-      about_link: {
-        type: 'area',
-        label: 'Hero link: read more',
-        options: {
-          widgets: {
-            '@apostrophecms/rich-text': {}
-          }
-        }
+      about_link_text: {
+        type: 'string',
+        label: 'About link text'
+      },
+      about_link_url: {
+        type: 'string',
+        label: 'About link url'
       }
     },
     group: {
@@ -93,17 +94,20 @@ module.exports = {
         fields: [
           'title',
           'h1',
-          'hero-img',
+          'hero_image',
           'hero_description_1',
           'hero_description_2',
-          'hero_link',
+          'hero_link_text',
+          'hero_link_url',
           'h2_1',
           'game_img',
           'game_description',
-          'game_link',
+          'game_link_text',
+          'game_link_url',
           'h2_2',
           'about_description',
-          'about_link'
+          'about_link_text',
+          'about_link_url'
         ]
       }
     }
